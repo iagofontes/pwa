@@ -9,8 +9,6 @@
 			let novoCartao = new Cartao(conteudo)
 			if(Mural.adiciona(novoCartao)){
 				$campoConteudo.val("")
-			} else {
-				alert("Você não está logado")
 			}
 		}
 	})

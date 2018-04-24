@@ -59,7 +59,7 @@ const LoginUsuario_render = (function($){
         $loginStatus && $loginStatus.remove()
     }
 
-    function login(props){
+    function login(props){        
         if(props.validacao && props.validacao(props.usuario) || !props.validacao && true){
             props.onLogin && props.onLogin(props.usuario)
             clean()
